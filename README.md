@@ -7,9 +7,7 @@ This is a non-official Kiwi.ai API, designed to be compatible with OpenAI's API.
 -`kiwi_api.py`: Contains the main function function `get_chat_completion_stream(messages, session_id=None)`, used to get chat completion stream.
 - `config.py`: The user needs to add to this file the headers obtained by Kiwi.ai.Cookies are optional.
 
-## How to use
-
-, installation dependent
+## How to use and install dep.
 
 Make sure the required dependencies are installed in your environment. Install using the following commands:
 
@@ -25,7 +23,7 @@ pip install requests
 
 Here is an example of how to use the `get_chat_completion_stream` function in `kiwi_api.py`:
 
-``python
+```python
 from kiwi_api import get_chat_completion_stream
 
 messages = [
